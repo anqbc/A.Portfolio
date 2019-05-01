@@ -15,6 +15,10 @@
     background: rgba(245, 254, 255, 0.5)
 }
 
+.bg-green-sec-o-08 {
+    background: rgba(245, 254, 255, 0.08)
+}
+
 .section-number {
     font-family: -Apple-system, BlinkMacSystemFont, PingFangTC, Roboto, microsoft JhengHei, Helvetica, Arial, sans-serif;
     font-size: 220px;

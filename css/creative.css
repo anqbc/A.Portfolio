@@ -19,66 +19,79 @@
     background: rgba(245, 254, 255, 0.08)
 }
 
-.section-number {
-    font-family: -Apple-system, BlinkMacSystemFont, PingFangTC, Roboto, microsoft JhengHei, Helvetica, Arial, sans-serif;
-    font-size: 220px;
-    color: #aed7d9;
-    opacity: 0.15;
+/*.section-number {*/
+/*    font-family:  -apple-system , BlinkMacSystemFont , "Segoe UI" , Roboto , Open Sans , "microsoft jhenghei" , "pingfang TC" , "Helvetica Neue" , sans-serif ;*/
+/*    font-size: 220px;*/
+/*    color: #aed7d9;*/
+/*    opacity: 0.15;*/
+
+/*}*/
+
+/*.section-title {*/
+/*    font-family: -Apple-system, BlinkMacSystemFont, PingFangTC, Roboto, microsoft JhengHei, Helvetica, Arial, sans-serif;*/
+/*    font-size: 32px;*/
+/*    color: #2f4864;*/
+/*}*/
+
+/*.font-title {*/
+/*    font-family: -Apple-system, BlinkMacSystemFont, PingFangTC, Roboto, microsoft JhengHei, Helvetica, Arial, sans-serif;*/
+/*    font-size: 22px;*/
+/*    color: #2f4864;*/
+/*}*/
+
+/*.font-title2 {*/
+/*    font-family: -Apple-system, BlinkMacSystemFont, PingFangTC, Roboto, microsoft JhengHei, Helvetica, Arial, sans-serif;*/
+/*    font-size: 22px;*/
+/*    color: #212121;*/
+/*}*/
+
+/*.font-title3 {*/
+/*    font-family: -Apple-system, BlinkMacSystemFont, PingFangTC, Roboto, microsoft JhengHei, Helvetica, Arial, sans-serif;*/
+/*    font-size: 18px;*/
+/*    color: #32ccbc;*/
+
+/*}*/
+
+/*.border-set1 {*/
+/*    border-radius: 25.5px;*/
+/*    border: solid 1px #00b29c;*/
+/*}*/
+
+
+/*.font-subtitle {*/
+/*    font-family: -Apple-system, BlinkMacSystemFont, PingFangTC, Roboto, microsoft JhengHei, Helvetica, Arial, sans-serif;*/
+/*    font-size: 16px;*/
+/*    color: #2f4864;*/
+/*}*/
+
+/*.font-description {*/
+/*    font-family: -Apple-system, BlinkMacSystemFont, PingFangTC, Roboto, microsoft JhengHei, Helvetica, Arial, sans-serif;*/
+/*    font-size: 16px;*/
+/*    color: #4c4c4c;*/
+/*}*/
+
+/*.font-image-source {*/
+/*    font-family: -Apple-system, BlinkMacSystemFont, PingFangTC, Roboto, microsoft JhengHei, Helvetica, Arial, sans-serif;*/
+/*    font-size: 14px;*/
+/*    color: #999999;*/
+/*}*/
+
+/*.font-image-desc {*/
+/*    font-family: -Apple-system, BlinkMacSystemFont, PingFangTC, Roboto, microsoft JhengHei, Helvetica, Arial, sans-serif;*/
+/*    font-size: 14px;*/
+/*    opacity: 0.7;*/
+/*    color: #000000;*/
+/*}*/
+
+.tips {
+    border-left: 3px solid #edbc55;
 
 }
 
-.section-title {
-    font-family: -Apple-system, BlinkMacSystemFont, PingFangTC, Roboto, microsoft JhengHei, Helvetica, Arial, sans-serif;
-    font-size: 32px;
-    color: #2f4864;
+.qrcode {
+    width: 116px;
+    height: 116px;
+    border: solid 1px #979797;
+    background-color: #d8d8d8;
 }
 
-.font-title {
-    font-family: -Apple-system, BlinkMacSystemFont, PingFangTC, Roboto, microsoft JhengHei, Helvetica, Arial, sans-serif;
-    font-size: 22px;
-    color: #2f4864;
-}
-
-.font-title2 {
-    font-family: -Apple-system, BlinkMacSystemFont, PingFangTC, Roboto, microsoft JhengHei, Helvetica, Arial, sans-serif;
-    font-size: 22px;
-    color: #212121;
-}
-
-.font-title3 {
-    font-family: -Apple-system, BlinkMacSystemFont, PingFangTC, Roboto, microsoft JhengHei, Helvetica, Arial, sans-serif;
-    font-size: 18px;
-    color: #32ccbc;
-
-}
-
-.border-set1{
-    border-radius: 25.5px;
-    border: solid 1px #00b29c;
-}
-
-
-.font-subtitle {
-    font-family: -Apple-system, BlinkMacSystemFont, PingFangTC, Roboto, microsoft JhengHei, Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    color: #2f4864;
-}
-
-.font-description {
-    font-family: -Apple-system, BlinkMacSystemFont, PingFangTC, Roboto, microsoft JhengHei, Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    color: #4c4c4c;
-}
-
-.font-image-source {
-    font-family: -Apple-system, BlinkMacSystemFont, PingFangTC, Roboto, microsoft JhengHei, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #999999;
-}
-
-.font-image-desc {
-    font-family: -Apple-system, BlinkMacSystemFont, PingFangTC, Roboto, microsoft JhengHei, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    opacity: 0.7;
-    color: #000000;
-}

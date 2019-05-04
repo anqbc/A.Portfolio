@@ -1,0 +1,172 @@
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+@for $i from 1 through 6 {
+
+  .section-0#{$i} {
+
+    @media screen and (min-width: $xs) {
+      height: 201px;
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-position: 14% 38%;
+      background-image: url('../images/標題數字/SM/0#{$i}-SM.png');
+    }
+    @media screen and (min-width: $md) {
+      height: 308px;
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-position: 28% 40%;
+      background-image: url('../images/標題數字/MD/0#{$i}-MD.png');
+    }
+    @media screen and (min-width: $lg) {
+      height: 308px;
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-position: 27% 42%;
+      background-image: url('../images/標題數字/XL、LG/0#{$i}-XL.png');
+    }
+    @media screen and (min-width: $xl) {
+      height: 308px;
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-position: 31% 42%;
+      background-image: url('../images/標題數字/XL、LG/0#{$i}-XL.png');
+    }
+  }
+
+}
+
+.banner {
+  @media screen and (min-width: 0) {
+    background-image: url("../images/banner/banner-SM.png");
+    margin: -16px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 360px;
+  }
+  @media screen and (min-width: 768px) {
+    background-image: url("../images/banner/banner-MD.png");
+    margin-left: -32px;
+    margin-right: -32px;
+    margin-top: -32px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 680px;
+  }
+  @media screen and (min-width: 1200px) {
+    background-image: url("../images/banner/banner-XL、LG.png");
+    margin-left: -100px;
+    margin-right: -100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 499px;
+  }
+}
+
+.black{
+  color: #212121;
+}
+.deep-blue{
+  color: #2f4864;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.sub-title {
+  @media screen and (min-width: $xs) {
+    font-family:  -apple-system , BlinkMacSystemFont , "Segoe UI" , Roboto , Open Sans , "microsoft jhenghei" , "pingfang TC" , "Helvetica Neue" , sans-serif ;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  @media screen and (min-width: $md) {
+    font-family:  -apple-system , BlinkMacSystemFont , "Segoe UI" , Roboto , Open Sans , "microsoft jhenghei" , "pingfang TC" , "Helvetica Neue" , sans-serif ;
+    font-size: 22px;
+    font-weight: 500;
+  }
+}
+
+.title-black
+{
+  @extend .title;
+  @extend .black;
+}
+
+.title-blue
+{
+  @extend .title;
+  @extend .deep-blue;
+}
+
+.sub-title-black
+{
+  @extend .sub-title;
+  @extend .black;
+}
+
+.sub-title-blue
+{
+  @extend .sub-title;
+  @extend .deep-blue;
+}
+
+.caption {
+  font-family:  -apple-system , BlinkMacSystemFont , "Segoe UI" , Roboto , Open Sans , "microsoft jhenghei" , "pingfang TC" , "Helvetica Neue" , sans-serif ;
+  font-size: 14px;
+  font-weight: 400;
+  color: #999999;
+}
+
+.caption-blue
+{
+  font-weight: 400;
+  font-family:  -apple-system , BlinkMacSystemFont , "Segoe UI" , Roboto , Open Sans , "microsoft jhenghei" , "pingfang TC" , "Helvetica Neue" , sans-serif ;
+  font-size: 14px;
+  @extend .deep-blue;
+}
+
+.caption-black
+{
+  font-weight: 400;
+  font-family:  -apple-system , BlinkMacSystemFont , "Segoe UI" , Roboto , Open Sans , "microsoft jhenghei" , "pingfang TC" , "Helvetica Neue" , sans-serif ;
+  font-size: 14px;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.description {
+  font-family:  -apple-system , BlinkMacSystemFont , "Segoe UI" , Roboto , Open Sans , "microsoft jhenghei" , "pingfang TC" , "Helvetica Neue" , sans-serif ;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.desc-black {
+  @extend .description;
+  color: #4c4c4c;
+}
+.desc-blue {
+  @extend .description;
+  color: #2f4864;
+}
+
+.circle-title{
+  font-family:  -apple-system , BlinkMacSystemFont , "Segoe UI" , Roboto , Open Sans , "microsoft jhenghei" , "pingfang TC" , "Helvetica Neue" , sans-serif ;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2f4864;
+  border-radius: 25.5px;
+  background-color: #e0f6f4;
+}
+

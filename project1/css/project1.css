@@ -1,0 +1,289 @@
+@charset "UTF-8";
+@media screen and (min-width: 0) {
+  .section-01 {
+    height: 201px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 14% 38%;
+    background-image: url("../images/標題數字/SM/01-SM.png");
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-01 {
+    height: 308px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 28% 40%;
+    background-image: url("../images/標題數字/MD/01-MD.png");
+  }
+}
+@media screen and (min-width: 992px) {
+  .section-01 {
+    height: 308px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 27% 42%;
+    background-image: url("../images/標題數字/XL、LG/01-XL.png");
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-01 {
+    height: 308px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 31% 42%;
+    background-image: url("../images/標題數字/XL、LG/01-XL.png");
+  }
+}
+
+@media screen and (min-width: 0) {
+  .section-02 {
+    height: 201px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 14% 38%;
+    background-image: url("../images/標題數字/SM/02-SM.png");
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-02 {
+    height: 308px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 28% 40%;
+    background-image: url("../images/標題數字/MD/02-MD.png");
+  }
+}
+@media screen and (min-width: 992px) {
+  .section-02 {
+    height: 308px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 27% 42%;
+    background-image: url("../images/標題數字/XL、LG/02-XL.png");
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-02 {
+    height: 308px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 31% 42%;
+    background-image: url("../images/標題數字/XL、LG/02-XL.png");
+  }
+}
+
+@media screen and (min-width: 0) {
+  .section-03 {
+    height: 201px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 14% 38%;
+    background-image: url("../images/標題數字/SM/03-SM.png");
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-03 {
+    height: 308px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 28% 40%;
+    background-image: url("../images/標題數字/MD/03-MD.png");
+  }
+}
+@media screen and (min-width: 992px) {
+  .section-03 {
+    height: 308px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 27% 42%;
+    background-image: url("../images/標題數字/XL、LG/03-XL.png");
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-03 {
+    height: 308px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 31% 42%;
+    background-image: url("../images/標題數字/XL、LG/03-XL.png");
+  }
+}
+
+@media screen and (min-width: 0) {
+  .section-04 {
+    height: 201px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 14% 38%;
+    background-image: url("../images/標題數字/SM/04-SM.png");
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-04 {
+    height: 308px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 28% 40%;
+    background-image: url("../images/標題數字/MD/04-MD.png");
+  }
+}
+@media screen and (min-width: 992px) {
+  .section-04 {
+    height: 308px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 27% 42%;
+    background-image: url("../images/標題數字/XL、LG/04-XL.png");
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-04 {
+    height: 308px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 31% 42%;
+    background-image: url("../images/標題數字/XL、LG/04-XL.png");
+  }
+}
+
+@media screen and (min-width: 0) {
+  .section-05 {
+    height: 201px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 14% 38%;
+    background-image: url("../images/標題數字/SM/05-SM.png");
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-05 {
+    height: 308px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 28% 40%;
+    background-image: url("../images/標題數字/MD/05-MD.png");
+  }
+}
+@media screen and (min-width: 992px) {
+  .section-05 {
+    height: 308px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 27% 42%;
+    background-image: url("../images/標題數字/XL、LG/05-XL.png");
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-05 {
+    height: 308px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 31% 42%;
+    background-image: url("../images/標題數字/XL、LG/05-XL.png");
+  }
+}
+
+@media screen and (min-width: 0) {
+  .section-06 {
+    height: 201px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 14% 38%;
+    background-image: url("../images/標題數字/SM/06-SM.png");
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-06 {
+    height: 308px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 28% 40%;
+    background-image: url("../images/標題數字/MD/06-MD.png");
+  }
+}
+@media screen and (min-width: 992px) {
+  .section-06 {
+    height: 308px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 27% 42%;
+    background-image: url("../images/標題數字/XL、LG/06-XL.png");
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-06 {
+    height: 308px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 31% 42%;
+    background-image: url("../images/標題數字/XL、LG/06-XL.png");
+  }
+}
+
+.circle-title {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Open Sans, "microsoft jhenghei", "pingfang TC", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2f4864;
+  border-radius: 25.5px;
+  background-color: #e0f6f4;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3C%3Fxml%20version%3D%221.0%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20version%3D%221.1%22%20id%3D%22Capa_1%22%20x%3D%220px%22%20y%3D%220px%22%20width%3D%22512px%22%20height%3D%22512px%22%20viewBox%3D%220%200%20451.846%20451.847%22%20style%3D%22enable-background%3Anew%200%200%20451.846%20451.847%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cg%20transform%3D%22matrix%28-1%200%200%201%20451.846%200%29%22%3E%3Cg%3E%0A%09%3Cpath%20d%3D%22M345.441%2C248.292L151.154%2C442.573c-12.359%2C12.365-32.397%2C12.365-44.75%2C0c-12.354-12.354-12.354-32.391%2C0-44.744%20%20%20L278.318%2C225.92L106.409%2C54.017c-12.354-12.359-12.354-32.394%2C0-44.748c12.354-12.359%2C32.391-12.359%2C44.75%2C0l194.287%2C194.284%20%20%20c6.177%2C6.18%2C9.262%2C14.271%2C9.262%2C22.366C354.708%2C234.018%2C351.617%2C242.115%2C345.441%2C248.292z%22%20data-original%3D%22%23000000%22%20class%3D%22active-path%22%20data-old_color%3D%22%23000000%22%20fill%3D%22%23C3E6E8%22%2F%3E%0A%3C%2Fg%3E%3C%2Fg%3E%20%3C%2Fsvg%3E");
+  background-size: 48px;
+  width: 48px;
+  height: 48px;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20version%3D%221.1%22%20id%3D%22Capa_1%22%20x%3D%220px%22%20y%3D%220px%22%20width%3D%22512px%22%20height%3D%22512px%22%20viewBox%3D%220%200%20451.846%20451.847%22%20style%3D%22enable-background%3Anew%200%200%20451.846%20451.847%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cg%3E%3Cg%3E%0A%09%3Cpath%20d%3D%22M345.441%2C248.292L151.154%2C442.573c-12.359%2C12.365-32.397%2C12.365-44.75%2C0c-12.354-12.354-12.354-32.391%2C0-44.744%20%20%20L278.318%2C225.92L106.409%2C54.017c-12.354-12.359-12.354-32.394%2C0-44.748c12.354-12.359%2C32.391-12.359%2C44.75%2C0l194.287%2C194.284%20%20%20c6.177%2C6.18%2C9.262%2C14.271%2C9.262%2C22.366C354.708%2C234.018%2C351.617%2C242.115%2C345.441%2C248.292z%22%20data-original%3D%22%23000000%22%20class%3D%22active-path%22%20data-old_color%3D%22%23000000%22%20fill%3D%22%23C3E6E8%22%2F%3E%0A%3C%2Fg%3E%3C%2Fg%3E%20%3C%2Fsvg%3E");
+  background-size: 48px;
+  width: 48px;
+  height: 48px;
+}
+
+.bg-green-o-40 {
+  background: rgba(195, 230, 232, 0.4);
+}
+
+.bg-green-o-15 {
+  background: rgba(195, 230, 232, 0.15);
+}
+
+.bg-green-o-20 {
+  background: rgba(195, 230, 232, 0.2);
+}
+
+.bg-green-sec-o-50 {
+  background: rgba(245, 254, 255, 0.5);
+}
+
+.bg-green-sec-o-08 {
+  background: rgba(245, 254, 255, 0.08);
+}
+
+.tips {
+  border-left: 3px solid #edbc55;
+}
+
+.qrcode {
+  width: 116px;
+  height: 116px;
+  border: solid 1px #979797;
+  background-color: #d8d8d8;
+}
+
+.carousel-indicators li {
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+  background-color: #c3e6e8;
+}
+
+/*# sourceMappingURL=project1.css.map */

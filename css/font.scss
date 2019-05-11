@@ -8,6 +8,10 @@
   color: #2f4864;
 }
 
+.red {
+  color: #dd5564;
+}
+
 .title {
   font-size: 32px;
   font-weight: 500;
@@ -48,11 +52,6 @@
 .sub-title-blue {
   @extend .sub-title;
   @extend .deep-blue;
-}
-
-.sub-title-red {
-  @extend .sub-title;
-  color: #dd5564;
 }
 
 .caption {

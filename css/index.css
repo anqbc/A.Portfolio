@@ -4,6 +4,18 @@
   margin-left: -17px;
   padding-left: 17px;
 }
+@media screen and (min-width: 0) {
+  .navbar-collapse.collapse.show.show > .navbar-nav {
+    margin-left: -17px;
+    padding-left: 17px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar-collapse.collapse.show.show > .navbar-nav {
+    margin-left: -41px;
+    padding-left: 41px;
+  }
+}
 
 .navbar-font {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Open Sans, "microsoft jhenghei", "pingfang TC", "Helvetica Neue", sans-serif;
@@ -52,12 +64,23 @@
 }
 @media screen and (min-width: 0) {
   .border-test {
-    height: 343px;
+    height: 226px;
   }
 }
 @media screen and (min-width: 768px) {
   .border-test {
     height: 323px;
+  }
+}
+
+@media screen and (min-width: 0) {
+  .project-img {
+    height: 226px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .project-img {
+    height: 232px;
   }
 }
 

@@ -69,21 +69,49 @@
       transition: 0.25s ease-in-out;
 
       &:nth-child(1) {
-        top: 0;
+        top: 6.5px;
+        transform: rotate(135deg);
       }
 
       &:nth-child(2) {
-        top: 9px;
+        opacity: 0;
+        left: -60px;
       }
 
       &:nth-child(3) {
-        top: 17px;
+        top: 6.5px;
+        transform: rotate(-135deg);
       }
     }
 
     &:active {
       span {
         background: #999999;
+      }
+    }
+  }
+}
+
+.navbar-toggler {
+  &.collapsed {
+    .menu-btn {
+      span {
+        &:nth-child(1) {
+          top: 0;
+          transform: rotate(0);
+        }
+
+        &:nth-child(2) {
+          top: 9px;
+          opacity: 1;
+          left: -0px;
+          transform: rotate(0);
+        }
+
+        &:nth-child(3) {
+          top: 17px;
+          transform: rotate(0);
+        }
       }
     }
   }

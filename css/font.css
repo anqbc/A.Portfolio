@@ -1,25 +1,30 @@
-.black, .sub-title-black, .title-black {
+.black, .title-black, .sub-title-black {
   color: #212121;
 }
 
-.deep-blue, .caption-blue, .sub-title-blue, .title-blue {
+.deep-blue, .title-blue, .sub-title-blue, .caption-blue {
   color: #2f4864;
 }
 
-.title, .title-blue, .title-black {
+.red {
+  color: #dd5564;
+}
+
+.title, .title-black, .title-blue {
   font-size: 32px;
   font-weight: 500;
 }
 
 @media screen and (min-width: 0) {
-  .sub-title, .sub-title-red, .sub-title-blue, .sub-title-black {
+  .sub-title, .sub-title-black, .sub-title-blue {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Open Sans, "microsoft jhenghei", "pingfang TC", "Helvetica Neue", sans-serif;
     font-size: 20px;
     font-weight: 500;
   }
 }
+
 @media screen and (min-width: 768px) {
-  .sub-title, .sub-title-red, .sub-title-blue, .sub-title-black {
+  .sub-title, .sub-title-black, .sub-title-blue {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Open Sans, "microsoft jhenghei", "pingfang TC", "Helvetica Neue", sans-serif;
     font-size: 22px;
     font-weight: 500;
@@ -28,10 +33,6 @@
 
 .title-underline {
   border-bottom: 1px solid rgba(195, 230, 232, 0.7);
-}
-
-.sub-title-red {
-  color: #dd5564;
 }
 
 .caption {
@@ -55,7 +56,7 @@
   opacity: 0.7;
 }
 
-.description, .desc-blue, .desc-black {
+.description, .desc-black, .desc-blue {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Open Sans, "microsoft jhenghei", "pingfang TC", "Helvetica Neue", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -75,5 +76,4 @@
   letter-spacing: 0.3px;
   color: #212121;
 }
-
 /*# sourceMappingURL=font.css.map */

@@ -6,7 +6,7 @@
   color: #2f4864;
 }
 
-.red {
+.red, .sub-title-red {
   color: #dd5564;
 }
 
@@ -16,7 +16,7 @@
 }
 
 @media screen and (min-width: 0) {
-  .sub-title, .sub-title-black, .sub-title-blue {
+  .sub-title, .sub-title-black, .sub-title-blue, .sub-title-red {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Open Sans, "microsoft jhenghei", "pingfang TC", "Helvetica Neue", sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -24,7 +24,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .sub-title, .sub-title-black, .sub-title-blue {
+  .sub-title, .sub-title-black, .sub-title-blue, .sub-title-red {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Open Sans, "microsoft jhenghei", "pingfang TC", "Helvetica Neue", sans-serif;
     font-size: 22px;
     font-weight: 500;

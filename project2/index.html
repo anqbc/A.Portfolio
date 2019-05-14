@@ -1,35 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta charset="UTF-8">
     <title>Title</title>
     <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/font.css" rel="stylesheet">
+    <link href="../css/navbar.css" rel="stylesheet">
 </head>
+
 <body>
-<section class="">
-    <div class="container px-0">
-        <div class="row no-gutters">
-            <div class="col-12 text-center">
-                <img src="images/app-XL.png" class="w-100" alt="Responsive image">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white p-0 shadow-light">
+            <div class="container px-3">
+                <div class="pl-6 pl-lg-0"></div>
+                <a class="navbar-brand mx-auto pl-lg-4" href="#">
+                    <span class="title-black">A.</span>
+                </a>
+                <button class="navbar-toggler collapsed m-0" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="menu-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav header-mobile-menu-item mr-auto mr-lg-0 ml-lg-auto mt-2 mt-lg-0">
+                        <li class="nav-item w-100 text-center active">
+                            <a class="nav-link " href="../index.html">
+                                <span class="nav-item-font red">work</span>
+                            </a>
+                        </li>
+                        <li class="nav-item w-100 text-center">
+                            <a class="nav-link" href="../resume.html">
+                                <span class="nav-item-font">about</span>
+                            </a>
+                        </li>
+                        <div class="py-7 py-md-8 py-lg-0 w-100"></div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <section>
+        <div class="container px-4 px-md-0">
+            <div class="row no-gutters py-4 py-md-5">
             </div>
         </div>
-    </div>
-</section>
+    </section>
+    <section class="">
+        <div class="container px-0">
+            <div class="row no-gutters">
+                <div class="col-12 text-center">
+                    <img src="images/app-XL.png" class="w-100" alt="Responsive image">
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 <script>
     $('#carousel').carousel({
         interval: 3000,
     });
 
 </script>
+
 </html>

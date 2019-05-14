@@ -1,17 +1,21 @@
 @import "variables";
 
 .project-img {
+  width: 100%;
   //width: 343px;
   @media screen and (min-width: 0) {
     height: 226px;
-    //width: 327px;
   }
   @media screen and (min-width: 768px) {
     height: 232px;
-    //width: 316px;
   }
 }
 
-.project-img:hover {
+.card-img:hover {
   box-shadow: 0 2px 10px 0 rgba(190, 190, 190, 0.3);
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+}
+
+.card-img:hover .overlay {
+  transform: scale(4) translateZ(0);
 }

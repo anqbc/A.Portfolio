@@ -10,17 +10,18 @@
   border-radius: 20px;
   background-color: #32ccbc;
 }
+
 @media screen and (min-width: 0) {
   .circle-title {
     padding-top: 6px;
     font-size: 20px;
   }
 }
+
 @media screen and (min-width: 992px) {
   .circle-title {
     padding-top: 5px;
     font-size: 22px;
   }
 }
-
 /*# sourceMappingURL=project3.css.map */

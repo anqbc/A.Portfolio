@@ -12,6 +12,17 @@
   @media (min-width: $lg) {
     font-size: 22px;
   }
+  &:hover{
+    color: #dd5564;
+  }
+}
+.nav-item.active{
+  &>.nav-link{
+    &>.nav-item-font{
+      border-bottom: 2px solid rgb(221, 85, 101);
+      color: #dd5564;
+    }
+  }
 }
 
 .header-mobile-menu-item {

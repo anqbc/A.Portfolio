@@ -53,12 +53,12 @@
     <section class="">
             <div class="container px-4 px-md-0">
         <picture>
-            <source media="(min-width: 992px)" srcset="images/LandingPage-XL.png" />
-            <img src="images/LandingPage-SM.png" class="w-100" alt="Sample" />
+            <source media="(min-width: 992px)" srcset="images/LandingPage-lit-XL.png" />
+            <img src="images/LandingPage-lit-SM.png"  data-src="images/LandingPage-{sizeName}.png" class="asyncImage w-100" alt="Sample" />
         </picture>
         </div>
     </section>
-    <section style="background-color:#ffffff"
+    <section style="background-color:#ffffff">
         <div class="row no-gutters align-items-center justify-content-center">
                 <div class="col-12 pt-8 pb-8 text-center">
                     <a href="../index.html"  class="btn btn-hover"
@@ -79,9 +79,28 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 <script>
-    $('#carousel').carousel({
-        interval: 3000,
-    });
+    (() => {
+        'use strict';
+        // Page is loaded
+        const objects = document.getElementsByClassName('asyncImage');
+        Array.from(objects).map((item) => {
+            // Start loading image
+            const img = new Image();
+            let sizeName = 'SM';
+            if (window.matchMedia('(min-width: 992px)').matches) {
+                sizeName = 'XL';
+            }
+            let newPath = item.dataset.src.replace('{sizeName}', sizeName);
+            img.src = newPath;
+            // Once image is loaded replace the src of the HTML element
+            img.onload = () => {
+                item.classList.remove('asyncImage');
+                return item.nodeName === 'IMG' ?
+                    item.src = newPath :
+                    item.style.backgroundImage = `url(${newPath})`;
+            };
+        });
+    })();
 
 </script>
 

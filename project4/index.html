@@ -53,8 +53,8 @@
     <section class="">
             <div class="container px-4 px-md-0">
         <picture>
-            <!-- <source media="(min-width: 992px)" srcset="images/LandingPage-lit-XL.png" /> -->
-            <img src="images/LandingPage-lit-XL.png"  data-src="images/LandingPage-{sizeName}.png" class="asyncImage w-100" alt="Sample" />
+            <source media="(min-width: 992px)" srcset="images/LandingPage-lit-XL.png" data-src="images/LandingPage-{sizeName}.png" class="asyncImage w-100" />
+            <img src="images/LandingPage-lit-SM.png"  data-src="images/LandingPage-{sizeName}.png" class="asyncImage w-100" alt="Sample" />
         </picture>
         </div>
     </section>
@@ -88,16 +88,18 @@
             const img = new Image();
             let sizeName = 'SM';
             if (window.matchMedia('(min-width: 992px)').matches) {
-                sizeName = 'https://0mmegw.ch.files.1drv.com/y4mCiKygNqh5Zx55eSEPun39XrrZjtc984oT9SA9Zn08eYOzPDW_js5U5TTqswvEsPbTu3Tlm74wlqlTzgvql5JNVxLoQp4VTZ8euFYAyX3QfTbAdaPxdSMqBdnZXYkXKAqqKb951DJ3ZO8X5mdKCrjloMAi8aUWbCV8PilzQy5nHorrA_SHHg-HzysMal74hOjIoFn2FuyzdIyL4nCyrc4Fg';
+                sizeName = 'XL';
             }
-            let newPath = sizeName;
+            let newPath = item.dataset.src.replace('{sizeName}', sizeName);
             img.src = newPath;
             // Once image is loaded replace the src of the HTML element
             img.onload = () => {
                 item.classList.remove('asyncImage');
-                return item.nodeName === 'IMG' ?
-                    item.src = newPath :
-                    item.style.backgroundImage = `url(${newPath})`;
+                if(item.nodeName === 'IMG' ){
+                    item.src = newPath;
+                }else if(item.nodeName === 'SOURCE'){
+                    item.srcset=newPath;
+                }
             };
         });
     })();

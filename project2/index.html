@@ -53,7 +53,7 @@
 <section class="">
     <div class="container px-4 px-md-0">
         <picture>
-            <source media="(min-width: 992px)" srcset="images/APP-lit-XL.png"/>
+            <source media="(min-width: 992px)" srcset="images/APP-lit-XL.png" data-src="images/app-{sizeName}.png" class="asyncImage"/>
             <img src="images/APP-lit-SM.png" data-src="images/app-{sizeName}.png" class="asyncImage w-100"
                  alt=""/>
         </picture>
@@ -96,9 +96,11 @@
             // Once image is loaded replace the src of the HTML element
             img.onload = () => {
                 item.classList.remove('asyncImage');
-                return item.nodeName === 'IMG' ?
-                    item.src = newPath :
-                    item.style.backgroundImage = `url(${newPath})`;
+                if(item.nodeName === 'IMG' ){
+                    item.src = newPath;
+                }else if(item.nodeName === 'SOURCE'){
+                    item.srcset=newPath;
+                }
             };
         });
     })();

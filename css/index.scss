@@ -26,3 +26,21 @@
 .card-img:hover .overlay {
   transform: scale(4) translateZ(0);
 }
+
+.title-text {
+  @media screen and (min-width: $xs) {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Open Sans, "microsoft jhenghei", "pingfang TC", "Helvetica Neue", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  @media screen and (min-width: $md) {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Open Sans, "microsoft jhenghei", "pingfang TC", "Helvetica Neue", sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+  }
+  @media screen and (min-width: $lg) {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Open Sans, "microsoft jhenghei", "pingfang TC", "Helvetica Neue", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+  }
+}

@@ -1,1 +1,16 @@
-/* No CSS *//*# sourceMappingURL=project2.css.map */
+.btn-hover:hover {
+  background-color: black;
+  color: #ffffff;
+}
+
+.btn-hover {
+  border-radius: 19px;
+  border: solid 1px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: black;
+  font-size: 14px;
+}
+/*# sourceMappingURL=project2.css.map */

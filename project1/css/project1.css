@@ -8,7 +8,6 @@
     background-image: url("../images/標題數字/SM/01-SM.png");
   }
 }
-
 @media screen and (min-width: 768px) {
   .section-01 {
     height: 308px;
@@ -18,7 +17,6 @@
     background-image: url("../images/標題數字/MD/01-MD.png");
   }
 }
-
 @media screen and (min-width: 992px) {
   .section-01 {
     height: 308px;
@@ -28,7 +26,6 @@
     background-image: url("../images/標題數字/XL、LG/01-XL.png");
   }
 }
-
 @media screen and (min-width: 1200px) {
   .section-01 {
     height: 308px;
@@ -48,7 +45,6 @@
     background-image: url("../images/標題數字/SM/02-SM.png");
   }
 }
-
 @media screen and (min-width: 768px) {
   .section-02 {
     height: 308px;
@@ -58,7 +54,6 @@
     background-image: url("../images/標題數字/MD/02-MD.png");
   }
 }
-
 @media screen and (min-width: 992px) {
   .section-02 {
     height: 308px;
@@ -68,7 +63,6 @@
     background-image: url("../images/標題數字/XL、LG/02-XL.png");
   }
 }
-
 @media screen and (min-width: 1200px) {
   .section-02 {
     height: 308px;
@@ -88,7 +82,6 @@
     background-image: url("../images/標題數字/SM/03-SM.png");
   }
 }
-
 @media screen and (min-width: 768px) {
   .section-03 {
     height: 308px;
@@ -98,7 +91,6 @@
     background-image: url("../images/標題數字/MD/03-MD.png");
   }
 }
-
 @media screen and (min-width: 992px) {
   .section-03 {
     height: 308px;
@@ -108,7 +100,6 @@
     background-image: url("../images/標題數字/XL、LG/03-XL.png");
   }
 }
-
 @media screen and (min-width: 1200px) {
   .section-03 {
     height: 308px;
@@ -128,7 +119,6 @@
     background-image: url("../images/標題數字/SM/04-SM.png");
   }
 }
-
 @media screen and (min-width: 768px) {
   .section-04 {
     height: 308px;
@@ -138,7 +128,6 @@
     background-image: url("../images/標題數字/MD/04-MD.png");
   }
 }
-
 @media screen and (min-width: 992px) {
   .section-04 {
     height: 308px;
@@ -148,7 +137,6 @@
     background-image: url("../images/標題數字/XL、LG/04-XL.png");
   }
 }
-
 @media screen and (min-width: 1200px) {
   .section-04 {
     height: 308px;
@@ -168,7 +156,6 @@
     background-image: url("../images/標題數字/SM/05-SM.png");
   }
 }
-
 @media screen and (min-width: 768px) {
   .section-05 {
     height: 308px;
@@ -178,7 +165,6 @@
     background-image: url("../images/標題數字/MD/05-MD.png");
   }
 }
-
 @media screen and (min-width: 992px) {
   .section-05 {
     height: 308px;
@@ -188,7 +174,6 @@
     background-image: url("../images/標題數字/XL、LG/05-XL.png");
   }
 }
-
 @media screen and (min-width: 1200px) {
   .section-05 {
     height: 308px;
@@ -208,7 +193,6 @@
     background-image: url("../images/標題數字/SM/06-SM.png");
   }
 }
-
 @media screen and (min-width: 768px) {
   .section-06 {
     height: 308px;
@@ -218,7 +202,6 @@
     background-image: url("../images/標題數字/MD/06-MD.png");
   }
 }
-
 @media screen and (min-width: 992px) {
   .section-06 {
     height: 308px;
@@ -228,7 +211,6 @@
     background-image: url("../images/標題數字/XL、LG/06-XL.png");
   }
 }
-
 @media screen and (min-width: 1200px) {
   .section-06 {
     height: 308px;
@@ -319,4 +301,5 @@
   color: black;
   font-size: 14px;
 }
+
 /*# sourceMappingURL=project1.css.map */

@@ -407,8 +407,9 @@ who learns every day to make myself a better and more knowledgeable designer." /
             </div>
             <div class="row no-gutters d-flex justify-content-center pt-4">
                 <div class="col-12 col-xl-10 text-center">
-                        <video id="homepage" autoplay muted loop playsinline class="img-fluid" >
-                            <source  srcset="images/Section4/首頁.mp4"/>
+                        <video autoplay loop muted playsinline class="img-fluid" >
+                            <source srcset="images/Section4/首頁.mp4" onerror="fallback(parentNode)"/>
+                            <img src="https://o8cibg.ch.files.1drv.com/y4m6XP72C6uBUCAngx8DY5SB4ruSisS2s1WX5NP-S_7l_rU13jmt79pgkEs2Aj_IIsnepJSQp8j_6xgcM6NgfH85HOjETpV-xdgTlaVD-sIYlevwSCBX-Rgl0pnTr3fMdHi6SHtOds6H-yQ91KijrIBJuHJQ4KQmgsewDCZOdS0wXQKPkzfDpwfaB5YQOu-OWTyTqwvhT5l4qRWTmeK1Raiiw">
                         </video>
                 </div>
             </div>
@@ -677,6 +678,13 @@ who learns every day to make myself a better and more knowledgeable designer." /
     $('#carousel').carousel({
         interval: 3000,
     });
+
+    function fallback(video)
+    {
+        var img = video.querySelector('img');
+        if (img)
+            video.parentNode.replaceChild(img, video);
+    }
 
 </script>
 </html>
